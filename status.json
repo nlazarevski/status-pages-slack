@@ -1,0 +1,396 @@
+{
+  "generatedAt": "2026-11-07T11:30:54Z",
+  "run": {
+    "trigger": "workflow_dispatch",
+    "url": "https://github.com/nlazarevski/status-pages-slack/actions/runs/42368441463",
+    "lastSchedulerAt": "2026-11-07T11:30:54Z"
+  },
+  "services": [
+    {
+      "id": "aws",
+      "name": "AWS",
+      "statusPage": "https://health.aws.amazon.com/health/status",
+      "checkedAt": "2026-11-07T11:30:30Z",
+      "level": "none",
+      "overall": null,
+      "open": [],
+      "recent": []
+    },
+    {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "statusPage": "https://www.cloudflarestatus.com",
+      "checkedAt": "2026-11-07T11:30:24Z",
+      "level": "minor",
+      "overall": {
+        "description": "Partial System Outage",
+        "indicator": "major"
+      },
+      "open": [
+        {
+          "title": "Fedramp Customers have Delayed Purges",
+          "url": "https://www.cloudflarestatus.com/incidents/wp49bp8bqo6c",
+          "kind": "Incident",
+          "status": "Identified",
+          "impact": "minor",
+          "impactText": "minor",
+          "affects": [
+            "CDN Cache Purge"
+          ],
+          "updated": "2026-11-06T17:59:13Z"
+        }
+      ],
+      "recent": [
+        {
+          "title": "Network Performance Issues in Chicago",
+          "url": "https://www.cloudflarestatus.com/incidents/x9orajjmvvwa",
+          "kind": "Incident",
+          "status": "Resolved",
+          "impact": "minor",
+          "impactText": "minor",
+          "affects": [
+            "Network",
+            "Chicago, United States - (ORD)"
+          ],
+          "updated": "2026-11-07T05:34:24Z"
+        },
+        {
+          "title": "Network Performance Issues in Singapore",
+          "url": "https://www.cloudflarestatus.com/incidents/3ehw20ozwlkr",
+          "kind": "Incident",
+          "status": "Resolved",
+          "impact": "minor",
+          "impactText": "minor",
+          "affects": [
+            "Singapore, Singapore - (SIN)"
+          ],
+          "updated": "2026-11-06T10:43:38Z"
+        },
+        {
+          "title": "Network disruption across multiple colocations in India",
+          "url": "https://www.cloudflarestatus.com/incidents/1i6fnludjh1m",
+          "kind": "Incident",
+          "status": "Resolved",
+          "impact": "minor",
+          "impactText": "minor",
+          "affects": [],
+          "updated": "2026-11-05T16:16:48Z"
+        },
+        {
+          "title": "Network latency issues in NRT",
+          "url": "https://www.cloudflarestatus.com/incidents/nbnize4e990z",
+          "kind": "Incident",
+          "status": "Resolved",
+          "impact": "minor",
+          "impactText": "minor",
+          "affects": [
+            "Network",
+            "Tokyo, Japan - (NRT)"
+          ],
+          "updated": "2026-11-04T15:33:09Z"
+        },
+        {
+          "title": "Missing Logs and Traces in Cloudflare Observability Platform",
+          "url": "https://www.cloudflarestatus.com/incidents/pfvfug94jq4q",
+          "kind": "Incident",
+          "status": "Resolved",
+          "impact": "none",
+          "impactText": "none",
+          "affects": [],
+          "updated": "2026-11-03T18:40:45Z"
+        }
+      ]
+    },
+    {
+      "id": "dynatrace",
+      "name": "Dynatrace",
+      "statusPage": "https://dynatrace.status.io",
+      "checkedAt": "2026-11-07T11:30:24Z",
+      "level": "none",
+      "overall": {
+        "description": "All 12 watched components operational",
+        "indicator": "none"
+      },
+      "open": [],
+      "recent": []
+    },
+    {
+      "id": "jira",
+      "name": "Jira",
+      "statusPage": "https://jira-software.status.atlassian.com",
+      "checkedAt": "2026-11-07T11:30:25Z",
+      "level": "none",
+      "overall": {
+        "indicator": "none",
+        "description": "All Systems Operational"
+      },
+      "open": [],
+      "recent": [
+        {
+          "title": "Fields missing across Jira Work Items for some users",
+          "url": "https://stspg.io/4vbvrxgbbzsk",
+          "kind": "Incident",
+          "status": "Resolved",
+          "impact": "major",
+          "impactText": "major",
+          "affects": [
+            "Viewing content",
+            "Search",
+            "Automation for Jira"
+          ],
+          "updated": "2026-11-02T00:38:50Z"
+        },
+        {
+          "title": "Jira - Project Sidebar Loading Degradation",
+          "url": "https://stspg.io/czwk831b76lg",
+          "kind": "Incident",
+          "status": "Resolved",
+          "impact": "minor",
+          "impactText": "minor",
+          "affects": [
+            "Viewing content"
+          ],
+          "updated": "2026-10-21T15:45:09Z"
+        },
+        {
+          "title": "Job processing and scheduling is degraded affecting multiple Atlassian products",
+          "url": "https://stspg.io/037ndsk7y1d4",
+          "kind": "Incident",
+          "status": "Postmortem",
+          "impact": "major",
+          "impactText": "major",
+          "affects": [
+            "Notifications",
+            "Automation for Jira"
+          ],
+          "updated": "2026-10-09T18:24:30Z"
+        },
+        {
+          "title": "Degraded Performance Viewing Issues and Boards",
+          "url": "https://stspg.io/d356gxdfnsjm",
+          "kind": "Incident",
+          "status": "Resolved",
+          "impact": "minor",
+          "impactText": "minor",
+          "affects": [
+            "Viewing content",
+            "Create and edit"
+          ],
+          "updated": "2026-09-24T15:53:04Z"
+        },
+        {
+          "title": "Degraded Performance Accessing Jira",
+          "url": "https://stspg.io/cvmh1bk43hff",
+          "kind": "Incident",
+          "status": "Resolved",
+          "impact": "none",
+          "impactText": "none",
+          "affects": [
+            "Viewing content"
+          ],
+          "updated": "2026-09-24T11:46:14Z"
+        }
+      ]
+    },
+    {
+      "id": "oci",
+      "name": "OCI (Oracle Cloud Infrastructure)",
+      "statusPage": "https://ocistatus.oraclecloud.com",
+      "checkedAt": "2026-11-07T11:30:30Z",
+      "level": "none",
+      "overall": {
+        "indicator": "none",
+        "description": "Normal Performance"
+      },
+      "open": [],
+      "recent": []
+    },
+    {
+      "id": "salesforce",
+      "name": "Salesforce",
+      "statusPage": "https://status.salesforce.com/instances/CAN56",
+      "checkedAt": "2026-11-07T11:30:23Z",
+      "level": "none",
+      "overall": {
+        "indicator": "none",
+        "description": "CAN56 operational"
+      },
+      "open": [],
+      "recent": [
+        {
+          "title": "Degradation: Experience Cloud on CAN56",
+          "url": "https://status.salesforce.com/incidents/20004576",
+          "kind": "Incident",
+          "status": "Resolved",
+          "impact": "minor",
+          "impactText": "Degradation (minor)",
+          "affects": [
+            "Experience Cloud"
+          ],
+          "updated": "2026-11-05T04:08:30Z"
+        },
+        {
+          "title": "Disruption: Core service on CAN56",
+          "url": "https://status.salesforce.com/incidents/20004521",
+          "kind": "Incident",
+          "status": "Resolved",
+          "impact": "major",
+          "impactText": "Disruption (major)",
+          "affects": [
+            "Core service"
+          ],
+          "updated": "2026-10-23T06:46:57Z"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "statusPage": "https://slack-status.com",
+      "checkedAt": "2026-11-07T11:30:38Z",
+      "level": "none",
+      "overall": {
+        "indicator": "none",
+        "description": "All systems operational"
+      },
+      "open": [],
+      "recent": [
+        {
+          "title": "Slack Real-Time Connection Disruption",
+          "url": "https://slack-status.com/2026-10/58a30c7fc8aa3e80",
+          "kind": "Incident",
+          "status": "Resolved",
+          "impact": "minor",
+          "impactText": "Incident",
+          "affects": [
+            "Messaging"
+          ],
+          "updated": "2026-10-22T18:50:50Z"
+        },
+        {
+          "title": "Single Sign On errors",
+          "url": "https://slack-status.com/2026-10/6aeafd6248f59a8a",
+          "kind": "Incident",
+          "status": "Resolved",
+          "impact": "minor",
+          "impactText": "Incident",
+          "affects": [
+            "Login/SSO"
+          ],
+          "updated": "2026-10-14T00:23:07Z"
+        },
+        {
+          "title": "Slack for iOS closing unexpectedly when opening channels",
+          "url": "https://slack-status.com/2026-10/a0cfb0208a1d2032",
+          "kind": "Incident",
+          "status": "Resolved",
+          "impact": "minor",
+          "impactText": "Incident",
+          "affects": [
+            "Connectivity"
+          ],
+          "updated": "2026-10-12T17:03:31Z"
+        },
+        {
+          "title": "Free Plan Customers Are Experiencing Message Failures",
+          "url": "https://slack-status.com/2026-10/6c28dfb7b670dc02",
+          "kind": "Incident",
+          "status": "Resolved",
+          "impact": "minor",
+          "impactText": "Incident",
+          "affects": [
+            "Messaging"
+          ],
+          "updated": "2026-10-01T18:59:35Z"
+        },
+        {
+          "title": "Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled",
+          "url": "https://slack-status.com/2026-08/e07b9271f0346c3b",
+          "kind": "Incident",
+          "status": "Resolved",
+          "impact": "minor",
+          "impactText": "Incident",
+          "affects": [
+            "Messaging",
+            "Workspace/Org Administration"
+          ],
+          "updated": "2026-09-14T22:31:02Z"
+        }
+      ]
+    },
+    {
+      "id": "smtp2go",
+      "name": "SMTP2GO",
+      "statusPage": "https://smtp2gostatus.com",
+      "checkedAt": "2026-11-07T11:30:24Z",
+      "level": "none",
+      "overall": {
+        "description": "All Systems Operational",
+        "indicator": "none"
+      },
+      "open": [],
+      "recent": [
+        {
+          "title": "API Error",
+          "url": "https://stspg.io/j46btb0j8grd",
+          "kind": "Incident",
+          "status": "Resolved",
+          "impact": "minor",
+          "impactText": "minor",
+          "affects": [
+            "API Servers"
+          ],
+          "updated": "2026-10-30T23:20:09Z"
+        },
+        {
+          "title": "Softbounce Errors",
+          "url": "https://stspg.io/8933gtyrk3g1",
+          "kind": "Incident",
+          "status": "Resolved",
+          "impact": "major",
+          "impactText": "major",
+          "affects": [
+            "Email sending (SMTP service)"
+          ],
+          "updated": "2026-10-15T17:23:47Z"
+        },
+        {
+          "title": "Issues with API- statusCode=500",
+          "url": "https://stspg.io/vskq5k5sqwkm",
+          "kind": "Incident",
+          "status": "Resolved",
+          "impact": "none",
+          "impactText": "none",
+          "affects": [
+            "API Servers"
+          ],
+          "updated": "2026-10-08T09:54:25Z"
+        },
+        {
+          "title": "Connectivity Issues",
+          "url": "https://stspg.io/k48rg1mfnwfw",
+          "kind": "Incident",
+          "status": "Resolved",
+          "impact": "minor",
+          "impactText": "minor",
+          "affects": [
+            "Email sending (SMTP service)"
+          ],
+          "updated": "2026-10-01T21:04:03Z"
+        },
+        {
+          "title": "Connection issues and 'processed' emails",
+          "url": "https://stspg.io/hflzxxrwqvvk",
+          "kind": "Incident",
+          "status": "Resolved",
+          "impact": "none",
+          "impactText": "none",
+          "affects": [
+            "Email sending (SMTP service)"
+          ],
+          "updated": "2026-10-01T09:44:11Z"
+        }
+      ]
+    }
+  ]
+}
